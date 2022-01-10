@@ -1,0 +1,49 @@
+.main-box  {
+    margin-top: 200px;
+}
+
+.text-box {
+    text-align: center;
+    padding: 80px 160px;
+    margin: 30px auto;
+    width: 300px;
+    font-size: 30px;
+    border:3px solid wheat;
+    border-radius: 10px;
+}
+
+.img-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-box__bono {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 30px;
+}
+
+.input-form input[type="text"] {
+    display: block;
+    padding: 5px 0px;
+    padding-left: 10px;
+    padding-right: 200px;
+    margin: auto;
+    margin-bottom: 30px;
+    border:3px solid wheat;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.input-form input[type="submit"] {
+    cursor: pointer;
+    /* text-align: center; */
+    display: block;
+    padding: 10px 60px;
+    margin: auto;
+    border:3px solid wheat;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
