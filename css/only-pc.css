@@ -1,0 +1,39 @@
+@media screen and (min-width: 768px) {
+
+    .mian-box {
+        margin-top: 200px;
+    }
+
+    .text-box {
+        padding: 80px 100px;
+        margin: 30px auto;
+        width: 500px;
+        font-size: 30px;
+    }
+
+    .img-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img-box__kk {
+        width: 30%;
+    }
+
+    .input-form {
+        width: 80%;
+    }
+
+    .input-form input[type="text"] {
+        width: 500px;
+        padding-right: 200px;
+        font-size: 22px;
+    }
+
+    .input-form input[type="submit"] {
+        padding: 10px 60px;
+        font-size: 22px;
+    }
+
+}
