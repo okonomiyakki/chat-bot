@@ -1,0 +1,35 @@
+.poem-box {
+    padding: 20px 0;
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+.poem-box span {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.button-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: center; 
+}
+
+.button-box button {
+    cursor: pointer;
+    border: 2px solid wheat;
+    border-radius: 5px;
+    background-color: rgba(255, 183, 183, 0.4);
+    font-size: 24px;
+    font-family: 'Gamja Flower', cursive;
+}
+
+.button-box__column {
+    margin-bottom: 20px;
+}
+
+.button-box__restart button {
+    background-color: rgba(205, 255, 255, 0.4);
+}
+
