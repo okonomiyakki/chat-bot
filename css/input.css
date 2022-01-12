@@ -52,15 +52,14 @@
 .input-form input[type="text"] {
     padding: 5px 0px;
     padding-left: 10px;
-    padding-right: 100px;
-    margin-right: 20px;
+    margin-right: 10px;
     width: 300px;
 }
 
 .input-form input[type="submit"],
 .poem-form input[type="submit"] {
     cursor: pointer;
-    padding: 10px 30px;
+    padding: 5px 10px;
     text-align: center;
     background-color: rgba(209, 240, 38, 0.2);
 }

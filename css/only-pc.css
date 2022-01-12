@@ -28,6 +28,7 @@
     .input-form input[type="text"] {
         width: 500px;
         padding-right: 200px;
+        margin-right: 20px;
         font-size: 22px;
     }
 
