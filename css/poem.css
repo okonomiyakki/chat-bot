@@ -27,6 +27,11 @@
 
 .button-box__column {
     margin-bottom: 20px;
+    width: 100%;
+}
+
+.button-box__restar {
+    width: 100%;
 }
 
 .button-box__restart button {

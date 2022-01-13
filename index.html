@@ -20,13 +20,15 @@
                 <img src="screenshots/kk.jpg" class="img-box__kk" />
             </div>
 
-            <form class="input-form" action="test.html">
-                <input class="input-form__question" type="text" placeholder="질문을 입력하세요." />
-                <input class="input-form__button" type="submit" value="물어보기" />
-            </form>
+            <div class="input-box">
+                <input class="input-box__question" type="text" placeholder="질문을 입력하세요." />
+                <button class="input-box__button" onclick="changeAns()">물어보기</button>
+            </div>
 
-            <form class="poem-form" action="poem.html">
-                <input class="poem-form__button" type="submit" value="삼행시 바로가기" />
+            <script src="js/chats.js"></script>
+
+            <form action="poem.html">
+                <input class="poem-link__button" type="submit" value="삼행시 바로가기" />
             </form>
         </main>
     </body>

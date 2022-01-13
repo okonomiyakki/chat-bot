@@ -21,23 +21,23 @@
         width: 30%;
     }
 
-    .input-form {
+    .input-box {
         width: 80%;
     }
 
-    .input-form input[type="text"] {
+    .input-box__question {
         width: 500px;
         padding-right: 200px;
         margin-right: 20px;
         font-size: 22px;
     }
 
-    .input-form input[type="submit"] {
-        padding: 10px 60px;
+    .input-box__button {
+        /* padding: 10px 60px;s */
         font-size: 22px;
     }
 
-    .poem-form__button {
+    .poem-link__button {
         font-size: 25px;
     }
 
