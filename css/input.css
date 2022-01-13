@@ -52,8 +52,13 @@
     width: 300px;
 }
 
+.input-box__button {
+    width: 20%;
+}
+
 .input-box__button,
 .poem-link__button {
+    color: black;
     cursor: pointer;
     padding: 5px 10px;
     text-align: center;
