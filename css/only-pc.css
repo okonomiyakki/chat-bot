@@ -45,4 +45,31 @@
         font-size: 24px;
     }
 
+    .button-box__column button {
+        width: 60px;
+        height: 40px;
+    }
+
+    .button-box__restart button {
+        width: 80px;
+        height: 40px;
+    }
+
+    .timer {
+        margin: 30px;
+        font-size: 50px;
+    }
+
+    .timer-btn button {
+        width: 90px;
+        height: 60px;
+        display: block;
+        border-radius: 20px;
+        font-size: 20px;
+    }
+
+    .timer-btn button {
+        margin: 0 20px;
+    }
+
 }

@@ -1,0 +1,40 @@
+.timer {
+    margin: 30px;
+    font-size: 30px;
+}
+
+.timer-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.timer-btn button {
+    width: 45px;
+    height: 30px;
+    display: block;
+    border-radius: 10px;
+    font-family: 'Gamja Flower',cursive; 
+    font-size: 12px;
+}
+
+.timer-btn button:active {
+    box-shadow: 5px 5px 10px -3px inset rgb(7, 7, 7); 
+}
+
+.timer-btn button {
+    margin: 0 5px;
+}
+
+.timer-btn :first-child {
+    background-color: rgb(183, 255, 183);
+}
+
+.timer-btn :nth-child(2){
+    background-color: rgb(247, 218, 166);
+}    
+
+.timer-btn :last-child {
+    background-color: rgb(250, 199, 199);
+}

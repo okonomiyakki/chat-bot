@@ -17,5 +17,5 @@ function changeAll() {
     var span = document.getElementsByTagName('span');
     span[0].innerHTML = "모"
     span[1].innerHTML = "각"
-    span[2].innerHTML="코"
+    span[2].innerHTML= "코"
 }
