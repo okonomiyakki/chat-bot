@@ -10,7 +10,7 @@ function changePoem1() {
 
 function changePoem2() {
     var span = document.getElementsByTagName('span');
-    span[2].innerHTML="코로나 조심!"
+    span[2].innerHTML="코로나 조심"
 }
 
 function changeAll() {

@@ -5,9 +5,13 @@ let num;
 let time;
 let count = 0;  
 
-let t = document.getElementsByClassName("time");
-let click = document.getElementsByClassName('start');
 
+
+let t = document.getElementsByClassName("time");
+// let click = document.getElementsByClassName('start');
+document.getElementById("start").addEventListener("click", start);
+document.getElementById("reset").addEventListener("click", reset);
+document.getElementById("stop").addEventListener("click", stop);
 
 function start() {
     
@@ -15,9 +19,9 @@ function start() {
     num = setTimeout(start, 1000);
 
     count = 1;
-    
-    click.disabled = true;
-    
+    if (count == 1) {
+        click.disabled = true;
+    }
 }
 
 function reset() {

@@ -13,19 +13,18 @@
 
         <main class="main-box">
             <div class="text-box">
-                <P>궁금한 것을 물어보세요 !</P>
+                <P id="ans">궁금한 것을 물어보세요 !</P>
             </div>
 
             <div class="img-box">
-                <img src="screenshots/kk.jpg" class="img-box__kk" />
+                <img src="screenshots/kk.jpg" class="img-box__kk" id="img" />
             </div>
 
             <div class="input-box">
-                <input class="input-box__question" type="text" placeholder="질문을 입력하세요." />
+                <input class="input-box__question" id="console" type="text" placeholder="질문을 입력하세요." />
                 <button class="input-box__button" onclick="changeAns()">물어보기</button>
             </div>
 
-            <script src="js/chats.js"></script>
 
             <form action="poem.html">
                 <input class="poem-link__button" type="submit" value="삼행시" />
@@ -34,6 +33,7 @@
                 <input class="poem-link__button" type="submit" value="스톱워치" />
             </form>
         </main>
+        <script src="js/chats.js"></script>
     </body>
 
 </html>
